@@ -6,10 +6,12 @@
 # Notes: You will need to first create an R API user in Administrator. Instructions can be  
 # found on this link: https://rstudio-pubs-static.s3.amazonaws.com/239851_1bc298ae651c41c7a65e09ce82f9053f.html
 #---------------------------------------------------------------------------------------------
+## Load libraries
 library(xml2)
 library(jsonlite)
 library(httr)
 library(dplyr)
+
 ### Specify Surveysolutions parameters for data import ---------------------------------------
 headquarters <- "headquarters" # This is your survey solutions homepage 
 export_type <- "tabular" #Format of your data you want to export
